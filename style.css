@@ -17,10 +17,17 @@ body{
 .textos{
     padding-top: 30px;
     padding-left: 400px;
-    
-    gap: 190px;
     align-items: center;
+    display: flex;
+    gap: 170px;
+    word-spacing: 5px;
     color: white;
+}
+#botao1{
+    position: relative;
+    left: 1600px;
+    width: 150px;
+    margin-top: -25px;
 }
 #logo1{
 position:absolute;
@@ -35,9 +42,9 @@ width: 130px;
 }
 #copos1{
     position: absolute;
-    height: 720px;
-    left: 590px;
-    top: 85px;
+    height: 700px;
+    left: 700px;
+    top: 110px;
 }
 .tomou{
 position: absolute;
@@ -87,12 +94,15 @@ top: 85px;
         
     }
     .textos{
-        display: flex;
-        justify-content: center;
         padding-top: 30px;
-        left: 800px;
-        gap: 35px;
+        padding-left: 400px;
+        align-items: center;
+        display: flex;
+        gap: 100px;
         color: white;
+    }
+    #botao{
+       width: 10px;
     }
     #logo1{
     position:absolute;
@@ -138,3 +148,79 @@ top: 85px;
     top: 85px;
     }
 }
+
+    @media (max-width:667px){
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            background-image: url(fundo.png);
+            background-size: cover;
+            overflow: hidden;
+        }
+        .fundo{
+           background-repeat: no-repeat;
+            
+        }
+        .textos{
+            padding-top: 30px;
+    padding-left: 400px;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    
+    word-spacing: 5px;
+    color: white;
+    
+        }
+        #logo1{
+        position:absolute;
+        width: 250px;
+        }
+        
+        #roxo2{
+            position: absolute;
+            height: 904px;
+            left: -10px;
+            top: 200px;
+        }
+        #copos1{
+            position: absolute;
+            height: 664px;
+            left: 110px;
+            top: 295px;
+        }
+        .tomou{
+        position: absolute;
+        left: 85px;
+        top: 1100px;
+        font-family: 'Lemon';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 170px;
+        color: #FFFF00;
+        }
+        .acai{
+        position: absolute;
+        width: 656px;
+        height: 237px;
+        left: 121px;
+        top: 1570px;
+        font-family: 'Lemon';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 90px;
+        color: #FFFFFF;
+        }
+        .linha{
+         position: absolute;
+        top: 85px;
+    }
+
+}
+
