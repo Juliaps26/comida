@@ -15,43 +15,57 @@ body{
     
 }
 .textos{
-    padding-top: 30px;
-    padding-left: 400px;
-    align-items: center;
     display: flex;
-    gap: 170px;
-    word-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 99px;
+    gap: 65px;
     color: white;
 }
-#botao1{
-    position: relative;
-    left: 1600px;
-    width: 150px;
-    margin-top: -25px;
-}
-#logo1{
+.logo{
 position:absolute;
-width: 130px;
 
 }
-
-#roxo2{
-    position: absolute;
-    height: 690px;
-    left: 38%;
+.roxo img{
+    position: relative;
+    width: 780px;
+    left: 450px;
+    top: -20px;
+   
 }
-#copos1{
+.copos img{
     position: absolute;
+   width: 750px;
+    left: 450px;
+    top: 55px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.roxo2{
+    background-image: url(./roxo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 700px;
     height: 700px;
-    left: 700px;
-    top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.roxo2 img{
+    width: 100%;
 }
 .tomou{
-position: absolute;
+    position: absolute;
 width: 52px;
 height: 323px;
 left: 85px;
-top: 290px;
+top: 180px;
 
 font-family: 'Lemon';
 font-style: normal;
@@ -63,7 +77,8 @@ color: #FFFF00;
     position: absolute;
 height: 237px;
 left: 121px;
-top: 500px;
+top: 400px;
+
 font-family: 'Lemon';
 font-style: normal;
 font-weight: 400;
@@ -84,73 +99,94 @@ top: 85px;
     }
     body{
         height: 100vh;
-        width: 100%;
+        width: 100vw;
         background-image: url(fundo.png);
         background-size: cover;
         overflow: hidden;
     }
+
     .fundo{
        background-repeat: no-repeat;
         
     }
     .textos{
-        padding-top: 30px;
-        padding-left: 400px;
-        align-items: center;
         display: flex;
-        gap: 100px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: -190px;
+        gap: 19px;
         color: white;
     }
-    #botao{
-       width: 10px;
-    }
-    #logo1{
+    .logo{
     position:absolute;
-    width: 250px;
+    width: 10px;
+    top: 1px;
     }
     
-    #roxo2{
+    .roxo img{
         position: absolute;
-        height: 1004px;
-        left: 20px;
-        top: 200px;
+        left: -15px;
+        top: 110px;
+        width: 1490px;
+        
     }
-    #copos1{
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    .roxo2{
+        background-image: url(./roxo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 700px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+    .roxo2 img{
+        width: 100%;
+    }
+    .copos img{
         position: absolute;
-        height: 804px;
-        left: 160px;
-        top: 295px;
+        left: 5px;
+        top: 160px;
+        width: 1390px;
     }
     .tomou{
     position: absolute;
+    width: 52px;
+    height: 323px;
     left: 85px;
-    top: 1000px;
+    top: 690px;
     font-family: 'Lemon';
     font-style: normal;
     font-weight: 600;
-    font-size: 130px;
+    font-size: 80px;
     color: #FFFF00;
     }
     .acai{
     position: absolute;
-    width: 1136px;
     height: 237px;
     left: 121px;
-    top: 1350px;
+    top: 900px;
     font-family: 'Lemon';
     font-style: normal;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 55px;
     color: #FFFFFF;
     }
     .linha{
      position: absolute;
     top: 85px;
     }
-}
 
+    }
     @media (max-width:667px){
-
         *{
             margin: 0;
             padding: 0;
@@ -158,69 +194,62 @@ top: 85px;
         }
         body{
             height: 100vh;
-            width: 100%;
+            width: 100vw;
             background-image: url(fundo.png);
             background-size: cover;
             overflow: hidden;
         }
+    
         .fundo{
            background-repeat: no-repeat;
             
         }
         .textos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             padding-top: 30px;
-    padding-left: 400px;
-    align-items: center;
-    display: flex;
-    gap: 50px;
-    
-    word-spacing: 5px;
-    color: white;
-    
+            padding-left: 420px;
+            gap: 19px;
+            color: white;
         }
-        #logo1{
+        .logo{
         position:absolute;
-        width: 250px;
+        width: 10px;
+        top: 1px;
         }
         
-        #roxo2{
-            position: absolute;
-            height: 904px;
-            left: -10px;
-            top: 200px;
+        .roxo2{
+            background-image: url(./roxo.png);
+            width: 700px;
+            height: 700px;
+    
         }
-        #copos1{
-            position: absolute;
-            height: 664px;
-            left: 110px;
-            top: 295px;
+        .roxo2 img{
+            width: 850px;
+            padding-left: 70px;
         }
+        
         .tomou{
-        position: absolute;
+        width: 52px;
+        height: 323px;
         left: 85px;
-        top: 1100px;
+        top: 800px;
+        
         font-family: 'Lemon';
         font-style: normal;
         font-weight: 600;
-        font-size: 170px;
+        font-size: 70px;
         color: #FFFF00;
         }
         .acai{
         position: absolute;
-        width: 656px;
-        height: 237px;
-        left: 121px;
-        top: 1570px;
+        top: 990px;
         font-family: 'Lemon';
         font-style: normal;
-        font-weight: 400;
-        font-size: 90px;
         color: #FFFFFF;
+        font-size: 50px;
         }
-        .linha{
-         position: absolute;
-        top: 85px;
+    
     }
-
-}
 
